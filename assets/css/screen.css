@@ -3098,7 +3098,7 @@ Usage (In Ghost editor):
     }
 }
 
-/* 13. TCO
+/* 13. TOC
 /* ---------------------------------------------------------- */
 /* Offset headings from fixed header */
 .post-content h2::before,
@@ -3166,4 +3166,45 @@ body {
 }
 ol.toc-list {
 	margin: 0;
+}
+
+/* 14. Reading Progress
+/* ---------------------------------------------------------- */
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  z-index: 1000;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #3eb0ef;
+}
+
+progress::before {
+  content: attr(data-reading-progress);
+  position: absolute;
+  background: none;
+  font-size: .6em;
+  margin: .6em .8em;
+  color: white;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: .3em .6em;
+  border-radius: .8em;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
 }
