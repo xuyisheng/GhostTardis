@@ -1,8 +1,8 @@
 {
-    "name": "casper",
+    "name": "tardis",
     "description": "A clean, minimal default theme for the Ghost publishing platform",
-    "demo": "https://demo.ghost.io",
-    "version": "3.1.0",
+    "demo": "https://xuyisheng.top",
+    "version": "1.0.0",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
@@ -23,9 +23,9 @@
         "postship": "git fetch && gulp release"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "XuYisheng",
+        "email": "xuyisheng89@163.com",
+        "url": "https://xuyisheng.top"
     },
     "gpm": {
         "type": "theme",
@@ -41,10 +41,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Casper.git"
+        "url": "https://github.com/xuyisheng/GhostTardis.git"
     },
-    "bugs": "https://github.com/TryGhost/Casper/issues",
-    "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
+    "bugs": "https://github.com/xuyisheng/GhostTardis/issues",
+    "contributors": "https://github.com/xuyisheng/GhostTardis/graphs/contributors",
     "devDependencies": {
         "@tryghost/release-utils": "^0.6.7",
         "autoprefixer": "9.8.6",
